@@ -1,0 +1,79 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="1">
+    </item>
+    <item 
+        android:id="@+id/st5sec" 
+        android:title="5 seconds sample" 
+        android:orderInCategory="2">
+    </item>
+    <item 
+        android:id="@+id/st30sec" 
+        android:title="30 seconds sample" 
+        android:orderInCategory="3">
+    </item>
+    <item 
+        android:id="@+id/st1min" 
+        android:title="1 minute sample" 
+        android:orderInCategory="4">
+    </item>
+    <item 
+        android:id="@+id/st5min" 
+        android:title="5 minutes sample" 
+        android:orderInCategory="5">
+    </item>
+    <item 
+        android:id="@+id/st15min" 
+        android:title="15 minutes sample" 
+        android:orderInCategory="6">
+    </item>
+    <item 
+        android:id="@+id/st30min" 
+        android:title="30 minutes sample" 
+        android:orderInCategory="7">
+    </item>
+    <item 
+        android:id="@+id/st1hour" 
+        android:title="1 hour sample" 
+        android:orderInCategory="8">
+    </item>
+    <item 
+        android:id="@+id/st3hour" 
+        android:title="3 hour sample" 
+        android:orderInCategory="9">
+    </item>
+    <item 
+        android:id="@+id/st6hour" 
+        android:title="6 hour sample" 
+        android:orderInCategory="10">
+    </item>
+    <item 
+        android:id="@+id/st8hour" 
+        android:title="8 hour sample" 
+        android:orderInCategory="11">
+    </item>
+    <item 
+        android:id="@+id/st12hour" 
+        android:title="12 hour sample" 
+        android:orderInCategory="12">
+    </item>
+    <item 
+        android:id="@+id/st1day" 
+        android:title="1 day sample" 
+        android:orderInCategory="13">
+    </item>
+    <item 
+        android:id="@+id/st30day" 
+        android:title="30 days sample" 
+        android:orderInCategory="14">
+    </item>
+    <item 
+        android:id="@+id/reset" 
+        android:title="Reset" 
+        android:orderInCategory="15">
+    </item>
+</menu>
+
+

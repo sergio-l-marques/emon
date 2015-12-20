@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@+id/pref_screen" >
+
+    <EditTextPreference
+        android:dialogMessage="Enter Your URL server Address"
+        android:dialogTitle="Change URL server Address"
+        android:key="server_url"
+        android:negativeButtonText="Cancel"
+        android:positiveButtonText="Submit"
+        android:title="URL address" 
+        android:order="1">
+    </EditTextPreference>
+    <EditTextPreference
+        android:dialogMessage="Enter Read API key"
+        android:dialogTitle="Change Read API key"
+        android:key="api_key"
+        android:negativeButtonText="Cancel"
+        android:positiveButtonText="Submit"
+        android:title="Read API key" 
+        android:order="2">
+    </EditTextPreference>
+   
+</PreferenceScreen>

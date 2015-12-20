@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$DummySectionFragment" >
+
+<!--     <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />  -->
+    
+<RadioGroup
+        android:id="@+id/RadioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/Icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:drawablePadding="-20dp"
+            android:gravity="center"
+            android:textColor="#0f0"
+            android:text="5sec"/>
+
+        <RadioButton
+            android:id="@+id/Icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:button="@android:color/transparent"
+            android:drawablePadding="-20dp"
+            android:gravity="center"
+            android:textColor="#0f0"
+            android:text="15sec"/>
+    </RadioGroup>    
+
+   	<LinearLayout
+   	    android:id="@+id/graph1"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="match_parent"
+   	    android:orientation="vertical" >
+   	</LinearLayout>
+</RelativeLayout>
